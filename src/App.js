@@ -138,7 +138,7 @@ function App() {
 
         </div>
             
-        <button onClick={()=>{ document.location.reload(); console.log('huuv')  }} className= "bg-red-500 h-fit p-5 rounded text-white font-bold absolute  bottom-10 uppercase animate-bounce">Again</button>
+        <button onClick={()=>{ document.location.reload(); console.log('huuv')  }} className= "bg-red-500 h-fit p-5 rounded text-white font-bold absolute  bottom-10 uppercase animate-bounce">Try again</button>
 
       </div>
 
