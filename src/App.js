@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import LuckydrawBg from './assets/luckydrawBg.mov'
 import Confetti from './assets/conf.gif'
 import Fireworks from './assets/fireworks.gif' 
-// import VideoBkg from './assets/videoBkg.mov'
+
+import {FaRedoAlt} from 'react-icons/fa'
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   const [counter, setCounter]= useState(4)
 
   //start button and again buttton
-  // const [start, setStart] = useState(true)
+  const [start, setStart] = useState(true)
   
   
   
@@ -155,13 +156,22 @@ function App() {
           {counter}
         </div>
 
-      {/* {start === true  && */}
+
+
+      {start === true  &&
+            <div className="absolute text-red-700 left-10 flex text-xs place-items-center w-fit h-fit p-1" onClick={()=>{
+              localStorage.removeItem('save')
+              setStart(false)
+            }}>
+              <FaRedoAlt className="mr-2"  />
+              Reset participants
+            </div>
+      } 
         
         <button id='start' onClick={()=>{ 
 
-          // setStart(false)
+          setStart(false)
 
-            // setStart(false)
             const startButton = document.getElementById('start')
             startButton.remove()
           
@@ -178,9 +188,6 @@ function App() {
                   const element = document.getElementById('frontV')
                   
                     element.remove()
-                    
-                    // change button
-                    // setStart(prev => !prev)
 
                   }, 4000)
               
@@ -203,8 +210,6 @@ function App() {
                 className= "bg-green-500 h-fit w-1/4 p-4 rounded text-center place-content-center text-white lg:text-6xl font-bold lg:px-10 uppercase animate-pulse">Start</button>
 
       
-      {/* } */}
-
 
     </div> 
   </div>
