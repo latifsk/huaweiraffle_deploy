@@ -111,7 +111,7 @@ function App() {
 
 
   return (
-    <div id='parent' className="parent bg-white w-full" style={{height:'100vh'}}>
+    <div id='parent' className="parent cursor-pointer bg-white w-full" style={{height:'100vh'}}>
 
     {/* main background */}
       <img alt="fireworks" src={Fireworks} loop autoPlay muted className=" h-full w-full absolute top-0  object-cover" />
