@@ -200,9 +200,8 @@ function App() {
 
                 }} 
                 
-                className= "bg-green-500 h-fit p-5 rounded text-center place-content-center text-white font-bold lg:p-10 uppercase animate-spin">Start</button>
+                className= "bg-green-500 h-fit w-1/4 p-4 rounded text-center place-content-center text-white lg:text-6xl font-bold lg:px-10 uppercase animate-pulse">Start</button>
 
-                {/* // className= {start === true ? "bg-green-500 h-fit p-5 rounded text-center place-content-center text-white font-bold lg:p-10 uppercase animate-spin" : 'hidden'}>Start</button> */}
       
       {/* } */}
 
