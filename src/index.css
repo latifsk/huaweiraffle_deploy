@@ -7,9 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.parent{
-  cursor: url(mouse.png), auto;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
