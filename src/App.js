@@ -159,7 +159,7 @@ function App() {
 
 
       {start === true  &&
-            <div className="absolute text-red-700 left-10 flex text-xs place-items-center w-fit h-fit p-1" onClick={()=>{
+            <div className="absolute text-red-300 left-10 flex text-xs place-items-center w-fit h-fit p-1" onClick={()=>{
               localStorage.removeItem('save')
               setStart(false)
             }}>
