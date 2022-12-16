@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/huaweiraffle_deploy/static/css/main.f20db24f.css",
-    "main.js": "/huaweiraffle_deploy/static/js/main.a2efd390.js",
+    "main.css": "/huaweiraffle_deploy/static/css/main.fb52a8b4.css",
+    "main.js": "/huaweiraffle_deploy/static/js/main.65f4e2eb.js",
     "static/js/787.3566f584.chunk.js": "/huaweiraffle_deploy/static/js/787.3566f584.chunk.js",
     "static/media/luckydrawBg.mov": "/huaweiraffle_deploy/static/media/luckydrawBg.f57099925b2eeb2704e3.mov",
     "static/media/fireworks.gif": "/huaweiraffle_deploy/static/media/fireworks.e9eab6f071bef11eded5.gif",
     "static/media/conf.gif": "/huaweiraffle_deploy/static/media/conf.82efa8e1faae652a0d9d.gif",
     "index.html": "/huaweiraffle_deploy/index.html",
-    "main.f20db24f.css.map": "/huaweiraffle_deploy/static/css/main.f20db24f.css.map",
-    "main.a2efd390.js.map": "/huaweiraffle_deploy/static/js/main.a2efd390.js.map",
+    "main.fb52a8b4.css.map": "/huaweiraffle_deploy/static/css/main.fb52a8b4.css.map",
+    "main.65f4e2eb.js.map": "/huaweiraffle_deploy/static/js/main.65f4e2eb.js.map",
     "787.3566f584.chunk.js.map": "/huaweiraffle_deploy/static/js/787.3566f584.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f20db24f.css",
-    "static/js/main.a2efd390.js"
+    "static/css/main.fb52a8b4.css",
+    "static/js/main.65f4e2eb.js"
   ]
 }
